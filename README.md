@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+# 📇 React Contact Manager App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A beginner-to-intermediate level **React.js** project designed to manage a list of contacts. This app is a complete walkthrough of React fundamentals, Hooks, and **React Router DOM**.
 
-## Available Scripts
+> ✅ Ideal for learning key React concepts through practical implementation.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🛠️ Features Covered
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 🔹 React Basics
+- Create React App Setup
+- Folder & Component Structure
+- Semantic UI Integration
+- JSX, Function & Class Components
+- Props & Prop Drilling
+- Rendering Lists
+- Handling Images & Inline Styles
+- useState and useEffect Hooks
+- Passing Functions as Props
+- setState for dynamic updates
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 🔹 React Router
+- Installing `react-router-dom`
+- Creating Routes
+- Using `Switch` and `exact`
+- Route-level Props Passing
+- Route Render Method
+- Programmatic Navigation using `history`
+- `<Link>` Component for Navigation
+- Route State Handling (`state` & `location`)
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📁 Folder Structure
 
-### `npm run build`
+MY-APP/ ├── public/ ├── src/ │ ├── components/ │ │ ├── AddContact.js │ │ ├── App.css │ │ ├── App.js │ │ ├── ContactCard.js │ │ ├── ContactDetail.js │ │ ├── ContactList.js │ │ ├── Header.js │ │ └── images/ │ │ └── ai.webp │ └── index.js ├── .gitignore ├── package.json └── README.md
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Learnings
+This project helps solidify the core foundations of React, especially:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Component-based architecture
 
-### `npm run eject`
+Props and state management
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+React Hooks (useState, useEffect)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Routing and navigation
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Styling and asset handling
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Screenshot
+<img width="766" alt="Screenshot 2025-04-29 at 2 08 11 PM" src="https://github.com/user-attachments/assets/f865c935-8fca-4599-b7d9-6e34f5f0aeab" />
 
-## Learn More
+<img width="756" alt="Screenshot 2025-04-29 at 2 08 20 PM" src="https://github.com/user-attachments/assets/05973864-7690-4eaf-8ba4-52b101da093c" />
+<img width="763" alt="Screenshot 2025-04-29 at 2 11 47 PM" src="https://github.com/user-attachments/assets/06f39498-5c8d-4114-83c1-16075dcecdb5" />
+<img width="764" alt="Screenshot 2025-04-29 at 2 11 56 PM" src="https://github.com/user-attachments/assets/847a64df-49a0-4187-a3e8-58657f0c6495" />
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
